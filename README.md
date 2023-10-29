@@ -14,3 +14,44 @@ Flink has been designed to run in all common cluster environments, perform compu
 
 https://flink.apache.org/downloads/
 
+# Get started with Flink
+
+https://nightlies.apache.org/flink/flink-docs-stable/docs/try-flink/local_installation/
+
+Flink is designed to process continuous streams of data at a lightning fast pace. 
+
+This short guide will show you how to download the latest stable version of Flink, install, and run it. You will also run an example Flink job and view it in the web UI.
+
+## Downloading Flink #
+Note: Flink is also available as a Docker image.
+
+Flink runs on all UNIX-like environments, i.e. Linux, Mac OS X, and Cygwin (for Windows). 
+
+You need to have Java 11 installed. 
+
+To check the Java version installed, type in your terminal:
+
+```
+java -version
+```
+
+Next, download the latest binary release of Flink, then extract the archive:
+
+![image](https://github.com/luiscoco/BigData_Flink/assets/32194879/c4aa3c09-c42e-40ce-ace3-d635676d0313)
+
+![image](https://github.com/luiscoco/BigData_Flink/assets/32194879/cb556c93-b761-4086-a158-ad5827dc7d39)
+
+## Browsing the project directory
+
+Navigate to the extracted directory and list the contents:
+
+
+For now, you may want to note that:
+
+**bin/** directory contains the flink binary as well as several bash scripts that manage various jobs and tasks
+
+**conf/** directory contains configuration files, including flink-conf.yaml
+
+**examples/** directory contains sample applications that can be used as is with Flink
+
+
