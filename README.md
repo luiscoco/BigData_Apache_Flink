@@ -123,3 +123,16 @@ The second operator is the transformation operator which aggregates counts of wo
 Learn more about DataStream operators: https://nightlies.apache.org/flink/flink-docs-release-1.18/docs/dev/datastream/operators/overview/
 
 You can also look at the timeline of the job execution:
+
+![image](https://github.com/luiscoco/BigData_Flink/assets/32194879/c9b4279a-0707-490d-a927-1a9d4c4bf386)
+
+You have successfully ran a Flink application! Feel free to select any other JAR archive from the examples/ folder or deploy your own job!
+
+**Flink Application**
+
+A Flink application is a Java Application that submits one or multiple Flink Jobs from the **main()** method (or by some other means). 
+
+Submitting jobs is usually done by calling **execute()** on an execution environment.
+
+The jobs of an application can either be submitted to a long running Flink Session Cluster, to a dedicated Flink Application Cluster, or to a Flink Job Cluster.
+
