@@ -39,6 +39,8 @@ To check the Java version installed, type in your terminal:
 java -version
 ```
 
+![image](https://github.com/luiscoco/BigData_Apache_Flink/assets/32194879/d0f59057-d542-433b-aa95-6386806604f7)
+
 Next, download the latest binary release of Flink, then extract the archive:
 
 ![image](https://github.com/luiscoco/BigData_Flink/assets/32194879/c4aa3c09-c42e-40ce-ace3-d635676d0313)
@@ -49,6 +51,7 @@ Next, download the latest binary release of Flink, then extract the archive:
 
 Navigate to the extracted directory and list the contents:
 
+![image](https://github.com/luiscoco/BigData_Apache_Flink/assets/32194879/bb450bd0-7e74-45bb-9b2d-ebf8aa9ed225)
 
 For now, you may want to note that:
 
@@ -57,6 +60,8 @@ For now, you may want to note that:
 **conf/** directory contains configuration files, including flink-conf.yaml
 
 **examples/** directory contains sample applications that can be used as is with Flink
+
+![image](https://github.com/luiscoco/BigData_Apache_Flink/assets/32194879/4fd234d4-1a22-4e58-83eb-2fe78f5fbfa8)
 
 Also see the exmples source code in this github repository: https://github.com/apache/flink/tree/master/flink-examples
 
