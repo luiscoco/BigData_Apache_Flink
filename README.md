@@ -54,4 +54,30 @@ For now, you may want to note that:
 
 **examples/** directory contains sample applications that can be used as is with Flink
 
+## Starting and stopping a local cluster #
+
+To **start a local cluster**, run the bash script that comes with Flink:
+
+```
+/bin/start-cluster.sh
+```
+
+You should see an output like this:
+
+![image](https://github.com/luiscoco/BigData_Flink/assets/32194879/2403bf09-aae5-4558-b9ae-e4d423c572d9)
+
+Flink is now running as a background process. You can check its status with the following command:
+
+```
+ps aux | grep flink
+```
+
+You should be able to navigate to the web UI at **localhost:8081** to view the Flink dashboard and see that the cluster is up and running.
+
+To quickly **stop the cluster** and all running components, you can use the provided script:
+
+```
+/bin/stop-cluster.sh
+```
+
 
