@@ -2,6 +2,8 @@
 
 # What is Apache Flink?
 
+![image](https://github.com/luiscoco/BigData_Apache_Flink/assets/32194879/c316e76e-475a-49bc-8e53-e172f0d373c5)
+
 https://flink.apache.org/
 
 https://en.wikipedia.org/wiki/Apache_Flink
